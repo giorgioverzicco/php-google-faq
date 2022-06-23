@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto&display=swap');
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -9,11 +9,20 @@ main {
     margin: auto;
 }
 
+h2, h3 {
+    color: #3c4043;
+}
+
 h2 {
     padding-top: 4rem;
-    color: #3c4043;
     font-size: 1.5rem;
     line-height: 32px;
+}
+
+h3 {
+    padding-top: 3.25rem;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
 }
 
 h2 + p {
@@ -24,4 +33,10 @@ p {
     margin: .625rem 0;
     font-size: .875rem;
     line-height: 24px;
+}
+
+ol {
+    font-family: 'Roboto', sans-serif;
+    font-size: .875rem;
+    line-height: 1.54;
 }

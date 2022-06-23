@@ -18,8 +18,8 @@ $questions = require 'data.php';
             <?php foreach ($questions as $question) : ?>
 
                 <section>
-                    <h2><?= $question['title'] ?></h2>
-                    <p><?= $question['reply'] ?></p>
+                    <?= $question['title'] ?>
+                    <?= $question['reply'] ?>
                 </section>
 
             <?php endforeach; ?>
